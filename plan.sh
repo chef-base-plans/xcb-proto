@@ -1,12 +1,12 @@
 pkg_name=xcb-proto
 pkg_origin=core
-pkg_version=1.12
+pkg_version=1.14
 pkg_maintainer="The Habitat Maintainers <humans@habitat.sh>"
 pkg_description="X11 client library"
 pkg_upstream_url="https://www.x.org/"
 pkg_license=('MIT')
-pkg_source="https://www.x.org/releases/individual/xcb/${pkg_name}-${pkg_version}.tar.bz2"
-pkg_shasum="5922aba4c664ab7899a29d92ea91a87aa4c1fc7eb5ee550325c3216c480a4906"
+pkg_source="https://www.x.org/releases/individual/xcb/${pkg_name}-${pkg_version}.tar.xz"
+pkg_shasum="186a3ceb26f9b4a015f5a44dcc814c93033a5fc39684f36f1ecc79834416a605"
 pkg_build_deps=(
   core/gcc
   core/libxml2
